@@ -1,0 +1,274 @@
+/*
+http://www.google.com/fonts#
+*/
+@import url(http://fonts.googleapis.com/css?family=Rambla:400,700,400italic,700italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Noto+Serif:400,700,400italic,700italic|Calligraffitti|Cantarell:400,700,400italic,700italic|Amaranth:400,400italic,700,700italic);
+
+
+/*
+Rambla:400,700,400italic,700italic
+Playfair+Display:400,700,900,400italic,700italic,900italic
+Noto+Serif:400,700,400italic,700italic
+Calligraffitti
+Cantarell:400,700,400italic,700italic
+Amaranth:400,400italic,700,700italic
+*/
+
+/*
+EED4A7
+F2CB88
+B27320
+291B15
+1C1C1B
+*/
+
+
+body{
+	font-family: 'Calligraffitti';
+	font-family: 'Playfair Display', serif;
+	font-family: 'Cantarell';
+	font-family: 'Noto Serif';
+	font-family: 'Rambla', sans-serif;
+
+	background: url(../img/bg-body-02.jpg) no-repeat center center fixed; 
+	--background: url(../img/bg-body-03.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: cover;
+
+	/*-webkit-transform: rotate(-180deg);*/
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: 'Amaranth';
+}
+
+body{
+	font-size:16px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-weight: 700;
+	--font-style: italic;
+}
+
+h1.pageTitle{
+	--text-align: center;
+}
+
+h2{
+	background: #1C1C1B;
+	--background: url(../img/bg-header-01.jpg) no-repeat center bottom;
+	color: #EED4A7;
+	padding: 20px;
+}
+
+h3{
+	background: #B27320;
+	background: #F2CB88;
+	/*
+	color: #1C1C1B;
+	color: #B5ADAA;
+	*/
+	color: #B27320;
+	color: #291B15;
+	padding: 20px;
+}
+
+h4{
+	--margin-top: 0;
+}
+
+h5{
+	color:#EED4A7;
+	color:#F2CB88;
+	color:#B27320;
+	color:#291B15;
+	color:#1C1C1B;
+}
+
+
+#header{
+	height: 100px;
+}
+
+.navbar{
+	border: none;
+	background-color: #1C1C1B;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #EED4A7;
+	color: #B27320;
+	line-height: 65px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #EED4A7;
+	color: #F2CB88;
+}
+
+.navbar-inverse .navbar-nav > li.active > a{
+	color: #EED4A7;
+}
+
+.navbar,
+.navbar-nav{
+  height: 100px;
+  float:right;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+	margin: 0;
+}
+
+.navbar > .container,
+.navbar-brand,
+.navbar-nav > li{
+	--height: 100%;
+	line-height: 65px;
+}
+
+.navbar-brand, .navbar-nav > li{
+	padding: 0;
+	margin: 0 5px;
+}
+
+
+.navbar .logo{
+	height: 85px;
+	padding: 0 5px;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+
+body{
+	/*
+	background: url(../img/bg-footer-01.jpg);
+	background-repeat: no-repeat;
+	background-position:left bottom;
+	background-attachment:fixed;
+	*/
+}
+
+#footer{
+	min-height: 200px;
+	padding:50px;
+	/*
+	background:red;
+	background-color: #1C1C1B;
+	background: url(../img/bg-footer-01.jpg) left top no-repeat;
+	*/
+	background: url(../img/bg-footer-03.jpg) left top no-repeat;
+	border: none;
+	color: #EED4A7;
+}
+
+
+@media (min-width: 1200px){
+}
+
+@media (max-width: 1200px){
+}
+
+
+@media (min-width: 992px){
+}
+
+@media (max-width: 768px){
+	.navbar, .navbar-nav{
+		height: auto;
+		padding:5px 0;
+	}
+	.navbar > .container{
+		padding: 0;
+		margin:0!important;
+	}
+	.container > .navbar-header{
+		position: relative;
+		--background: red;
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+
+	.navbar-header .navbar-toggle{
+		position: absolute;
+		right:0;
+		top: 20px;
+		border-radius: 0;
+		border-color: #EED4A7;
+	}
+
+	.navbar-header .navbar-toggle .icon-bar{
+		background-color: #EED4A7;
+	}
+
+	.navbar-header .navbar-brand{
+		float:none;
+	}
+
+	.navbar-header .navbar-brand img{
+		margin:0;
+		display: inline;
+	}
+
+	.navbar-inverse .navbar-collapse{
+		border: none;
+  		box-shadow: none;
+	}
+	.nav.navbar-nav{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.nav.navbar-nav li{
+		line-height: 20px;
+		margin:5px 0;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		margin: 10px 0;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: inherit;
+	}
+
+	.section.body > .container > .row{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.section > .container > .row {
+		margin: 20px 0px;
+	}
+	.section > .container > .row h3{
+		margin-top: 10px;
+	}
+	#footer {
+		background-position: -200px top;
+		padding: 0;
+	}
+}
+
+@media (max-width: 768px){}
+	/*
+.navbar, .navbar-nav {
+  height: auto;
+}
+*/
+/*
+EED4A7
+F2CB88
+B27320
+291B15
+1C1C1B
+*/
+
+@media (max-width: 768px){
+}
+
+
+@media (max-width: 400px){
+}
+
+
