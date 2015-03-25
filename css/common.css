@@ -109,7 +109,14 @@ h5{
 	color: #F2CB88;
 }
 
+.navbar-nav > li.active {
+	padding-bottom: -5px;
+	border-bottom: 5px solid #EED4A7;
+}
+
 .navbar-inverse .navbar-nav > li.active > a{
+	line-height: 59px;
+	padding: 18px 25px;
 	color: #EED4A7;
 }
 
