@@ -101,7 +101,7 @@ h5{
 .navbar-inverse .navbar-nav > li > a{
 	color: #EED4A7;
 	color: #B27320;
-	line-height: 65px;
+	line-height: 0px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
