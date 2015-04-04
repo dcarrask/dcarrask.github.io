@@ -1,17 +1,40 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Rambla:400,700,400italic,700italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Noto+Serif:400,700,400italic,700italic|Calligraffitti|Cantarell:400,700,400italic,700italic|Amaranth:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+
+    <link rel="stylesheet" type="text/css" href="/www/css/common.css">
+
     
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="css/common.css">
-    </head>
+
     
-    <body>
+<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+
+
+</head>
+
+<body>
+    <header>
         <div id="header" class="section">
             <div class="container">
                 <div class="row">
@@ -26,29 +49,20 @@
                                         <span class="icon-bar"></span>
                                     </button>
                                     <a class="navbar-brand" href="index.html">
-                                        <img class="logo" src="img/lomac-vending-logo.png">
+                                        <img class="logo" src="/www/imgc-vending-logo.png">
                                     </a>
                                 </div>
                                 <div id="navbar" class="collapse navbar-collapse">
+
+
+
                                     <ul class="nav navbar-nav">
-                                        <li>
-                                            <a href="index.html">Inicio</a>
-                                        </li>
-                                        <li>
-                                            <a href="empresa.html">Empresa</a>
-                                        </li>
-                                        <li>
-                                            <a href="servicios.html">Servicios</a>
-                                        </li>
-                                        <li>
-                                            <a href="nuestras-maquinas.html">Nuestras Máquinas</a>
-                                        </li>
-                                        <li class="active">
-                                            <a href="productos-destacados.html">Productos Destacados</a>
-                                        </li>
-                                        <li>
-                                           <a href="contacto.html">Contacto</a>
-                                        </li>
+                                        <li ><a href="/">Inicio</a><br>
+                                        <li ><a href="/empresa">Empresa</a><br>
+                                        <li ><a href="/servicios">Servicios</a><br>
+                                        <li ><a href="/nuestras-maquinas">Nuestras Máquinas</a><br>
+                                        <li class="active"><a href="/productos-destacados">Productos Destacados</a><br>
+                                        <li ><a href="/contacto">Contacto</a><br>
                                     </ul>
                                 </div><!--/.nav-collapse -->
                             </div>
@@ -57,92 +71,83 @@
                 </div>
             </div>
         </div>
-        <div class="section body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Productos Destacados</h1>
-                    </div>
+    </header>
+
+
+
+
+
+
+    <div class="section body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Productos Destacados</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="http://placehold.it/1200x1000" title="Café" data-gallery>
+                        <img src="/www/imgc-vending-cafes-valiente-cafe.jpg" class="img-responsive" alt="Café">
+                    </a>
+                    <h2>Café</h2>
+                    <p>Café de intenso sabor que hará las delicias de los más exigentes.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://placehold.it/1200x1000" title="Leche" data-gallery>
+                        <img src="/www/imgc-vending-simat-leche.jpg" class="img-responsive" alt="Leche">
+                    </a>
+                    <h2>Leche</h2>
+                    <p>Leche semidesnatada que aporta un intenso sabor al café y consigue un equilibrio en contenido de materia grasa ideal para una dieta saludable.</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://placehold.it/1200x1000" title="Chocolate" data-gallery>
+                        <img src="/www/imgc-vending-simat-chococolate-choco-bombon.jpg" class="img-responsive" alt="Chocolate">
+                    </a>
+                    <h2>Chocolate</h2>
+                    <p>La bebida ideal para hacer una dulce pausadurante la jornada y degustar un delicioso chocolate bombón.</p>
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="http://placehold.it/1200x1000" title="Café" data-gallery>
-                            <img src="http://placehold.it/600x500/EED4A7/291B15&text=Café" class="img-responsive" alt="Café">
-                        </a>
-                        <h2>Café</h2>
-                        <p>Café de intenso sabor que hará las delicias de los más exigentes.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://placehold.it/1200x1000" title="Leche" data-gallery>
-                            <img src="http://placehold.it/600x500/EED4A7/291B15&text=Leche" class="img-responsive" alt="Leche">
-                        </a>
-                        <h2>Leche</h2>
-                        <p>Leche semidesnatada que aporta un intenso sabor al café y consigue un equilibrio en contenido de materia grasa ideal para una dieta saludable.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="http://placehold.it/1200x1000" title="Chocolate" data-gallery>
-                            <img src="http://placehold.it/600x500/EED4A7/291B15&text=Chocolate" class="img-responsive" alt="Chocolate">
-                        </a>
-                        <h2>Chocolate</h2>
-                        <p>La bebida ideal para hacer una dulce pausadurante la jornada y degustar un delicioso chocolate bombón.</p>
-                    </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Infusiones</h1>
+                </div>
+                <div class="col-md-4">
+                    <img src="/www/imgc-vending-simat-te-a-la-menta.jpg" class="img-responsive">
+                    <h2>SIMAT TÉ A LA MENTA</h2>
+                    <p>Infusión tradicional a base de extractos de hierbas naturales sin nada de azúcar.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/www/imgc-vending-simat-manzanilla.jpg" class="img-responsive">
+                    <h2>SIMAT MANZANILLA</h2>
+                    <p>Infusión tradicional a base de extractos de hierbas naturales.</p>
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Infusiones</h1>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="http://placehold.it/600x500/EED4A7/291B15&text=SIMAT TÉ A LA MENTA" class="img-responsive">
-                        <h2>SIMAT TÉ A LA MENTA</h2>
-                        <p>Infusión tradicional a base de extractos de hierbas naturales sin nada de azúcar.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="http://placehold.it/600x500/EED4A7/291B15&text=SIMAT MANZANILLA" class="img-responsive">
-                        <h2>SIMAT MANZANILLA</h2>
-                        <p>Infusión tradicional a base de extractos de hierbas naturales.</p>
-                    </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Novedades</h1>
+                </div>
+                <div class="col-md-4">
+                    <img src="/www/imgc-vending-simat-cafe-capuccino-crema-de-orujo.jpg" class="img-responsive">
+                    <h2>SIMAT CAPPUCCINO SABOR CREMA DE ORUJO</h2>
+                    <p>Deleite este producto revolucionario que aunque lo parezca no lleva ni una gota de alcohol.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/www/imgc-vending-simat-cafe-capuccino-avellana.jpg" class="img-responsive">
+                    <h2>SIMAT CAPPUCCINO SABOR AVELLANA</h2>
+                    <p>Otro producto novedoso es el cappuccino sabor avellana. Un nuevo placer que no podrás resistir.</p>
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Novedades</h1>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="http://placehold.it/600x500/EED4A7/291B15&text=SIMAT CAPPUCCINO SABOR CREMA DE ORUJO" class="img-responsive">
-                        <h2>SIMAT CAPPUCCINO SABOR CREMA DE ORUJO</h2>
-                        <p>Deleite este producto revolucionario que aunque lo parezca no lleva ni una gota de alcohol.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="http://placehold.it/600x500/EED4A7/291B15&text=SIMAT CAPPUCCINO SABOR AVELLANA" class="img-responsive">
-                        <h2>SIMAT CAPPUCCINO SABOR AVELLANA</h2>
-                        <p>Otro producto novedoso es el cappuccino sabor avellana. Un nuevo placer que no podrás resistir.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="footer" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-right">
-                        <p>
-                            +34 658878203<br>
-                            info@lomacvending.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
     <div class="slides"></div>
@@ -154,14 +159,24 @@
     <ol class="indicator"></ol>
 </div>
 
-<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+
+
+    <div id="footer" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                    <p>
+                        +34 658878203<br>
+                        info@lomacvending.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-<!--
-<link rel="stylesheet" href="https://blueimp.github.io/Bootstrap-Image-Gallery/css/bootstrap-image-gallery.css">
-<script src="https://blueimp.github.io/Bootstrap-Image-Gallery/js/bootstrap-image-gallery.js"></script>
--->
 
 
-    </body>
-
+</body>
 </html>
